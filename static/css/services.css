@@ -1,0 +1,27 @@
+table{ margin-top: 30px;
+    border-color: aqua;
+    padding: 40px;
+    border-style: ridge;
+
+
+}
+h2{ color: darkorange;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 0px;
+}
+.container-fluid{
+    background-color: grey;
+    height:auto;
+}
+th{
+    padding: 10px;
+    text-align: center;
+    color: hotpink;
+}
+td{text-align: center;
+    padding: 10px;
+}
+tr:nth-of-type(odd){
+    color: white;
+}

@@ -1,0 +1,46 @@
+{% extends 'masterpage.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<div class="container">
+<div class="row">
+    <div class="offset-3 col-md-6">
+        <h1> Your Feedbacks are..</h1>
+        {% if fdata %}
+            {% for i in fdata %}
+{#                {% if i.rating > 3 %}#}
+                    Name:{{ i.name }}<br>
+                    Rating:{{ i.rating }}<br>
+                    Time:{{ i.time }}<br>
+                    Feedback:{{ i.feedback }}
+{#                {% endif %}#}
+
+              <!-- {% if i.rating > 3 %}-->
+
+              <!-- {% endif %}-->
+
+            {% endfor %}
+        {% else %}
+            <h2>No Feedbacks</h2>
+        {% endif %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="offset-3 col-md-6">
+        <form method="post">
+               {% csrf_token %}
+        {{ fform }}<br>
+        <center>
+            <input type="submit" value="Submit" class="btn btn-success">
+            <input type="reset" value="Clear" class="btn btn-danger">
+        </center>
+        </form>
+
+    </div>
+</div>
+</div>
+
+
+
+{% endblock %}

@@ -1,0 +1,5 @@
+.container-fluid{background-color: grey;
+margin-top: 10px;
+}
+img{height: 200px;width: 300px;margin: 10px;margin-left: 2px;border: 2px solid lightblue;
+}

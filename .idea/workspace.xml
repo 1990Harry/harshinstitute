@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79f7147c-de40-4672-809a-d451a9b2dd9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/harshinstitute.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/harshinstitute/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/harshinstitute/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/harshinstitute/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/harshinstitute/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instituteapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instituteapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instituteapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instituteapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instituteapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instituteapp/migrations/0002_feedbackdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instituteapp/migrations/0003_auto_20190225_1539.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instituteapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instituteapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instituteapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instituteapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/Homestyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/contactstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/gallary.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/masterpage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/services.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/girl1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pc4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/tech.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/tecnology.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/feedback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/gallary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/masterpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/services.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/gallary.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/instituteapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/feedback.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/harshinstitute/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2193">
+              <caret line="129" selection-start-line="129" selection-end-line="129" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/Homestyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/static/css/home.css" />
+        <option value="$PROJECT_DIR$/templates/harshsoft.html" />
+        <option value="$PROJECT_DIR$/harshinstitute/settings.py" />
+        <option value="$PROJECT_DIR$/static/css/homestyle.css" />
+        <option value="$PROJECT_DIR$/static/css/Home.css" />
+        <option value="$PROJECT_DIR$/static/css/masterpage.css" />
+        <option value="$PROJECT_DIR$/templates/masterpage.html" />
+        <option value="$PROJECT_DIR$/static/css/gallary.css" />
+        <option value="$PROJECT_DIR$/templates/gallary.html" />
+        <option value="$PROJECT_DIR$/templates/contact.html" />
+        <option value="$PROJECT_DIR$/static/css/contactstyle.css" />
+        <option value="$PROJECT_DIR$/templates/services.html" />
+        <option value="$PROJECT_DIR$/static/css/services.css" />
+        <option value="$PROJECT_DIR$/harshinstitute/urls.py" />
+        <option value="$PROJECT_DIR$/instituteapp/forms.py" />
+        <option value="$PROJECT_DIR$/instituteapp/models.py" />
+        <option value="$PROJECT_DIR$/static/css/Homestyle.css" />
+        <option value="$PROJECT_DIR$/instituteapp/views.py" />
+        <option value="$PROJECT_DIR$/templates/feedback.html" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="698" />
+    <option name="y" value="36" />
+    <option name="width" value="682" />
+    <option name="height" value="654" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="harshinstitute" type="b2602c69:ProjectViewProjectNode" />
+              <item name="harshinstitute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="harshinstitute" type="b2602c69:ProjectViewProjectNode" />
+              <item name="harshinstitute" type="462c0819:PsiDirectoryNode" />
+              <item name="harshinstitute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="harshinstitute" type="b2602c69:ProjectViewProjectNode" />
+              <item name="harshinstitute" type="462c0819:PsiDirectoryNode" />
+              <item name="instituteapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="harshinstitute" type="b2602c69:ProjectViewProjectNode" />
+              <item name="harshinstitute" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="harshinstitute" type="b2602c69:ProjectViewProjectNode" />
+              <item name="harshinstitute" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\Django practice\harshinstitute\static\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="harshinstitute" type="Python.DjangoServer" factoryName="Django server">
+      <module name="harshinstitute" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79f7147c-de40-4672-809a-d451a9b2dd9d" name="Default Changelist" comment="" />
+      <created>1550891286506</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550891286506</updated>
+      <workItem from="1550891290162" duration="22000" />
+      <workItem from="1550891356604" duration="609000" />
+      <workItem from="1550893290414" duration="3419000" />
+      <workItem from="1550901849147" duration="14000" />
+      <workItem from="1550911010426" duration="3933000" />
+      <workItem from="1550916836385" duration="6428000" />
+      <workItem from="1550938184784" duration="6987000" />
+      <workItem from="1550977273620" duration="526000" />
+      <workItem from="1551002032390" duration="7535000" />
+      <workItem from="1551024517246" duration="3588000" />
+      <workItem from="1551028698267" duration="4899000" />
+      <workItem from="1551076327969" duration="533000" />
+      <workItem from="1551086132786" duration="5584000" />
+      <workItem from="1551095203075" duration="4047000" />
+      <workItem from="1551103677427" duration="3959000" />
+      <workItem from="1551114077828" duration="4772000" />
+      <workItem from="1551151181805" duration="1017000" />
+      <workItem from="1551170460837" duration="325000" />
+      <workItem from="1551172555240" duration="3284000" />
+      <workItem from="1551192643203" duration="1841000" />
+      <workItem from="1551198539671" duration="642000" />
+      <workItem from="1551210205481" duration="227000" />
+      <workItem from="1551261803338" duration="75000" />
+      <workItem from="1551271362597" duration="130000" />
+      <workItem from="1552125128944" duration="30000" />
+      <workItem from="1552287417045" duration="205000" />
+      <workItem from="1552466693963" duration="34000" />
+      <workItem from="1556472671051" duration="568000" />
+      <workItem from="1556473267486" duration="547000" />
+      <workItem from="1557377558501" duration="2175000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="67955000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14901665" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.18003273" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info active="true" anchor="bottom" id="manage.py@harshinstitute" order="13" sideWeight="0.49924356" visible="true" weight="0.42553192" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12556732" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="manage.py@harshinstitute" order="13" visible="true" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/css/masterpage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/gallary.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="79" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/contactstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/masterpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/services.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/harshinstitute/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="e#703#735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instituteapp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instituteapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instituteapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/harshinstitute/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gallary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/Homestyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

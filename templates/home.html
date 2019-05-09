@@ -1,0 +1,153 @@
+{% extends 'masterpage.html' %}
+{% load staticfiles %}
+
+
+{% block content %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/Homestyle.css' %}">
+    <div class="container-fluid">
+    <div class="row">
+        <div class="offset-3 col-md-6">
+            <h2>Welcome To HarshSoft Technology</h2><br>
+            <center>
+               <button type="button" class="btn btn-primary btn-md active" data-toggle="modal" data-target="#on">Online</button>
+            <button type="button" class="btn btn-success active btn-md" data-toggle="modal" data-target="#of">Ofline</button>
+            </center>
+        </div>
+        <div class=" modal fade" id="on">
+            <div class="row modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Online Courses</h3>
+                        <button class="btn " type="button" data-dismiss="modal">&times;</button></div>
+                        <div class="modal-body">
+                            <table id="onlinecourses" border="2">
+                <thead>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Fee</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Days</th>
+                    <th>Faculty</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td>Python</td>
+                <td>2000</td>
+                <td>1March</td>
+                <td>7Am-9Am</td>
+                <td>60</td>
+                <td>Mr.Harry</td>
+                </tr>
+                <tr>
+                <td>Django</td>
+                <td>2000</td>
+                <td>5March</td>
+                <td>9:30Am-11Am</td>
+                <td>60</td>
+                <td>Mr.Harry</td>
+                </tr>
+                <tr>
+                <td>Oracle</td>
+                <td>2000</td>
+                <td>5March</td>
+                <td>3Pm-5Pm</td>
+                <td>60</td>
+                <td>Mr.Kailas</td>
+                </tr>
+                <tr>
+                <td>Java</td>
+                <td>3600</td>
+                <td>1March</td>
+                <td>7Am-9Am</td>
+                <td>60</td>
+                <td>Mr.Ram</td>
+                </tr>
+                </tbody>
+            </table>
+                        </div>
+                    <br>
+                    <div class="modal-footer" id="foot">
+                        <button type="button" class="btn btn-info">Get more Enquiry</button>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+
+        </div>
+    <div class="row">
+        <div class="offset-3 col-md-6">
+            <div class="modal fade" id="of" style="margin-top: 60px">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        Offline Courses
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                            <div class="modal-body">
+                                <table id="onlinecourses" border="2">
+                <thead>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Fee</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Days</th>
+                    <th>Faculty</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td>Python</td>
+                <td>2000</td>
+                <td>1March</td>
+                <td>7Am-9Am</td>
+                <td>60</td>
+                <td>Mr.Harry</td>
+                </tr>
+                <tr>
+                <td>Django</td>
+                <td>2000</td>
+                <td>5March</td>
+                <td>9:30Am-11Am</td>
+                <td>60</td>
+                <td>Mr.Harry</td>
+                </tr>
+                <tr>
+                <td>Oracle</td>
+                <td>2000</td>
+                <td>5March</td>
+                <td>3Pm-5Pm</td>
+                <td>60</td>
+                <td>Mr.Kailas</td>
+                </tr>
+                <tr>
+                <td>Java</td>
+                <td>4000</td>
+                <td>1March</td>
+                <td>7Am-9Am</td>
+                <td>60</td>
+                <td>Mr.Ram</td>
+                </tr>
+                </tbody>
+            </table>
+
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-info">Get more Enquiry</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends 'masterpage.html' %}
+{% load staticfiles %}
+{% block content %}
+<link rel="stylesheet" type="text/css"  href="{% static 'css/gallary.css' %}">
+<div class="container-fluid" >
+<div class="row">
+    <div class="col-md-3"><img src="{% static 'images/pic9.jpg' %}"></div>
+    <div class="col-md-3"><img src="{% static 'images/pic2.jpg' %}"></div>
+    <div class="col-md-3"><img src="{% static 'images/pic3.jpg' %}"></div>
+    <div class="col-md-3"><img src="{% static 'images/pc4.jpg' %}"></div>
+</div>
+<div class="row">
+    <div class="col-md-3"><img src="{% static 'images/pic5.jpg' %}" > </div>
+    <div class="col-md-3"><img src="{% static 'images/pic6.jpg' %}"> </div>
+    <div class="col-md-3"><img src="{% static 'images/pic7.jpg' %}"> </div>
+    <div class="col-md-3"><img src="{% static 'images/pic8.jpg' %}"> </div>
+
+
+</div>
+<div class="row">
+    <div class="col-md-3"><img src="{% static 'images/pic10.jpg' %}" alt="student-image"> </div>
+    <div class="col-md-3"><img src="{% static 'images/pic11.jpg' %}"> </div>
+    <div class="col-md-3"><img src="{% static 'images/pic12.jpg' %}"> </div>
+    <div class="col-md-3"><img src="{% static 'images/pic13.jpg' %}"> </div>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+{% endblock %}
